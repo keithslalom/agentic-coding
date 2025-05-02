@@ -1,0 +1,67 @@
+I will provide you with the source code for an application below. It's contained in XML hierarchically with the directory name in <d> and the file name and content in <f>. Both dir and file have an attribute called n which represents the file or directory name.
+
+<dirs>
+  <f n="users_router.py">code</f>
+  <d n="services">
+    <f n="user.py">code</f>
+  </d>
+</dirs>
+
+Generate a concise but complete developer onboarding guide that fits within the 3750 token limit. The guide must ONLY document what is explicitly found in the source code. Include these sections:
+
+1. Project Overview:
+- Technology Stack (ONLY used technologies found in imports/code)
+- Architecture Overview (ONLY actual components)
+- Core Libraries (ONLY imported libraries)
+- Project Structure (ONLY actual files/directories)
+- Coding Standards (ONLY patterns seen in code)
+
+2. Setup Guide:
+- Prerequisites (ONLY required dependencies from code)
+- Environment Setup (ONLY referenced env vars/config)
+- Configuration (ONLY actual config values/files)
+- Local Development (ONLY documented setup steps)
+- Common Issues (ONLY handled errors/exceptions)
+
+3. Development Workflow:
+- Testing Requirements (ONLY existing tests/patterns)
+- Build & Deploy (ONLY implemented processes)
+
+4. Key Concepts:
+- Authentication (ONLY implemented auth)
+- Authorization (ONLY implemented auth)
+- Data Models (ONLY defined models)
+- API Structure (ONLY actual endpoints)
+- Caching (ONLY implemented caching)
+
+5. Best Practices:
+- Code Style (ONLY patterns in code)
+- Testing (ONLY implemented tests)
+- Security (ONLY implemented measures)
+- Documentation (ONLY existing docs)
+- API Design (ONLY actual endpoints)
+
+6. Common Tasks:
+- API Development (ONLY actual patterns)
+- Database Changes (ONLY actual DB code)
+- Testing & Debug (ONLY existing tools)
+
+7. Troubleshooting:
+- Common Issues (ONLY handled errors)
+- Debug Tips (ONLY implemented logging)
+
+8. Resources:
+- Documentation (ONLY referenced docs)
+- Team Contacts (ONLY in code)
+
+Requirements:
+- Document ONLY what exists in the code
+- No assumptions or suggestions
+- No example links unless in code
+- No workflows unless in code
+- Use actual code examples
+- Must be complete in one response
+
+Here is the source code:
+
+{{code}}
